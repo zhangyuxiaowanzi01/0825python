@@ -56,3 +56,48 @@ x = 'hello'
 y = 'hello1'
 print(x is y)  # False
 print(x is not y)  # True
+
+# 查看内存地址
+print(id(x))
+print(id(y))
+print(id('hello'))
+print('==' * 20)
+
+# TODO 逻辑运算符
+# and 并且，and俩边都为都为True，那么这个表达式的结果就是True，否则就是False
+print(True and True)
+print(True and False)
+print(False and True)
+
+# or 或者， or俩边只有由一个是True，那么这个表达式结果就是True，否则就是False
+print(True or True)
+print(True or False)
+print(False or True)
+print(False or False)
+
+# not 取反
+print(not False)
+print(not True)
+print('==' * 20)
+
+# 短路
+# False: 0 '' None [] {} ()
+# and
+print(1 and 2)  # 2
+print('hello' and '100')  # '100'
+print(0 and 100)  # 0
+print(None and 0)  # ''
+print('==' * 20)
+
+# or
+print(1 or 2)  # 1
+print('hello' or '100')  # 'hello'
+print(0 or 100)  # 100
+print(None or 0)  # 0
+
+# not
+print(not 1)
+print(not 0)
+print(not '')
+print(not None)
+print(not '0')
