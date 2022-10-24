@@ -11,5 +11,3 @@ if age >= 18 and is_card:
 else:
     print('大咩')
 
-
-
