@@ -35,8 +35,3 @@ import random  # 随即模块，用来产生随机数
 # print(random.randint(1, 999999)) # 返回1-999999之间的随机数
 code = '%06d' % random.randint(1, 999999)
 print(code)
-
-
-
-
-
