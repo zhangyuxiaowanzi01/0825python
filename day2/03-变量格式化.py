@@ -30,7 +30,7 @@ num2 = 100
 print('num2:%04d' % num2)
 """
 
-# 手机号 验证码:生成6为的验证码
+# 手机号 验证码:生成6位的验证码
 import random  # 随即模块，用来产生随机数
 # print(random.randint(1, 999999)) # 返回1-999999之间的随机数
 code = '%06d' % random.randint(1, 999999)
