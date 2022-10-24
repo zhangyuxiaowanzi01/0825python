@@ -104,4 +104,5 @@ print(not '0')
 
 # TODO 运算符优先级
 print(1 + 1 and 2 - 2)
+print((1 + 1) and (2 - 2))  # 为了可读性更好，增加括号
 print((1 + 2) * 3)
