@@ -51,7 +51,7 @@ y %= 2  # y = y % 2 0
 print(y)
 print('==' * 20)
 
-# 身份运算符
+# TODO 身份运算符
 x = 'hello'
 y = 'hello1'
 print(x is y)  # False
