@@ -13,6 +13,11 @@ print(list1.index('mysql'))
 print(len(list1))
 print(len('hello'))
 
+# list.count(元素) 根据元素获取元素在列表中出现的次数
+print('mysql个数：', list1.count('mysql'))
+print('python个数：', list1.count('python'))
+
+
 
 # 修改
 # 语法：list[下标] = value
