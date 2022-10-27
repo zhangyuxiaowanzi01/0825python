@@ -30,4 +30,3 @@ while i < 6:
     i += 1
 else:
     print('循环结束了')
-
