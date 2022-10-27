@@ -11,7 +11,7 @@ list1 = ['python', 'mysql', 'git', 'linux']
 list1[start:end:step]
 start:起始索引,默认0,可以为负数
 end:结束索引，不过结束位置（左闭右开），可以为负数
-step:步长，默认为1，可以为负数
+step:步长，默认为1，可以为负数。 负责方向：正数从左向右查，负数从右向左查
 """
 # TODO 正数
 list1 = ['python', 'mysql', 'git', 'linux']
@@ -24,7 +24,33 @@ print('--' * 20)
 # ['python', 'git']
 print(list1[:3:2])
 
+# ['git', 'linux']
+print(list1[2:])
+
 # 复制这个列表
 list2 = list1[:]
 print(list2)
+
+print('==' * 20)
+
+# TODO 负数
+list1 = ['python', 'mysql', 'git', 'linux']
+# ['python', 'mysql']
+print(list1[:2])
+print(list1[-4:-2])
+
+# ['git', 'linux']
+print(list1[-2:])
+
+# ['linux', 'git']
+print(list1[-1:-3:-1])
+
+# list.reverse()  # 改变原列表进行反转
+# 列表反转，返回新的列表
+print(list1[::-1])
+
+
+
+
+
 
