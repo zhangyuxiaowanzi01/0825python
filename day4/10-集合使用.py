@@ -12,6 +12,11 @@ print(set2)
 print(set3)
 print(set4)
 
+# 集合操作
+print(set4.pop())
+set4.add('git')
+print(set4)
+
 # 集合特点：
 # 1. 集合是无序的，没有索引
 # 2. 集合元素是唯一的。去重。
