@@ -8,7 +8,7 @@ print(name, age, address)
 name, age, address = list(('hello', 18, '成都省高天市'))
 print(name, age, address)
 
-a, b, c = '123'y
+a, b, c = '123'
 print(a, b, c)
 
 # 注意：
