@@ -7,7 +7,7 @@ print(info['name'])
 # print(info['addr'])
 print('==' * 20)
 
-# TODO dict.get(key[, default])
+# TODO dict.get(key [, default=None])
 # 根据key查询对应值，key不存在，返回default的值，default默认是None
 info = {'name': 'fine', 'age': 18}
 # 存在
@@ -17,7 +17,7 @@ print(info.get('addr'))
 print(info.get('addr', '成都'))
 print('==' * 20)
 
-# TODO len(dict) 通用方法：str，list，tuple，dict
+# TODO len(dict) 通用方法：str，list，tuple，dict, set
 print(len(info))
 print('==' * 20)
 
@@ -31,4 +31,3 @@ print(info.values())
 
 # dict.items()
 print(info.items())
-

@@ -1,4 +1,4 @@
-# TODO del dict[kye]
+# TODO del dict[key]
 info = {'name': 'fine', 'age': 18}
 del info['age']
 print(info)

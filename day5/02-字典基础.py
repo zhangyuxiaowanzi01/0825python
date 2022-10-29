@@ -1,6 +1,7 @@
 """
 结构：
-{key1:value1, key2:value2, ...}
+简单写法（常用）： {key1:value1, key2:value2, ...}
+函数写法: dict(key1=value1, key2=value2, ...)
 key:不可变数据类型，一般都用字符串
 value: 任何数据类型都可以
 Why:
@@ -16,3 +17,5 @@ Why:
 key是唯一的
 key：value形式的数据结构
 """
+dict1 = dict(a=1, b=2)
+print(dict1)
