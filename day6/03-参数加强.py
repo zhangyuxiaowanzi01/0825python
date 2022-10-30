@@ -1,4 +1,7 @@
 """
+参数加强
+"""
+"""
 # 定义函数-参数
 # 必填参数（必需参数）
     # 必须要传入对应的实参
@@ -19,9 +22,6 @@ def fn2(name, age, class_name='0825'):
     @return:
     """
     print(name, age, class_name)
-
-
-fn2(1, 2)
 
 
 # TODO 必填参数
