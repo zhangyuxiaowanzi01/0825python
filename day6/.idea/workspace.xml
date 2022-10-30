@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdabd534-0354-4ab2-b428-120009b5f140" name="Default Changelist" comment="参数拆包 返回多个值">
-      <change afterPath="$PROJECT_DIR$/07-变量作用域.py" afterDir="false" />
+    <list default="true" id="cdabd534-0354-4ab2-b428-120009b5f140" name="Default Changelist" comment="变量作用域">
+      <change afterPath="$PROJECT_DIR$/08-匿名函数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,8 @@
       <recent name="E:\20220825软件测试精英班\10.python阶段\0825python\day6\作业" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.07-变量作用域">
-    <configuration name="03-参数加强" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.08-匿名函数[了解]">
+    <configuration name="04-不定长参数[重点]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="day6" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,29 +57,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-参数加强.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="04-不定长参数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="day6" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-不定长参数.py" />
+      <option name="SCRIPT_NAME" value="E:\20220825软件测试精英班\10.python阶段\0825python\day6\04-不定长参数[重点].py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06-返回多个值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="06-返回多个值[重点]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="day6" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +101,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06-返回多个值.py" />
+      <option name="SCRIPT_NAME" value="E:\20220825软件测试精英班\10.python阶段\0825python\day6\06-返回多个值[重点].py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,13 +132,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="08-匿名函数[了解]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="day6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\20220825软件测试精英班\10.python阶段\0825python\day6\08-匿名函数[了解].py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.08-匿名函数[了解]" />
         <item itemvalue="Python.07-变量作用域" />
-        <item itemvalue="Python.06-返回多个值" />
+        <item itemvalue="Python.06-返回多个值[重点]" />
         <item itemvalue="Python.05-参数拆包" />
-        <item itemvalue="Python.04-不定长参数" />
-        <item itemvalue="Python.03-参数加强" />
+        <item itemvalue="Python.04-不定长参数[重点]" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1667092029799" duration="3997000" />
       <workItem from="1667098995445" duration="458000" />
       <workItem from="1667099467447" duration="2987000" />
-      <workItem from="1667109993783" duration="3872000" />
+      <workItem from="1667109993783" duration="5581000" />
     </task>
     <task id="LOCAL-00001" summary="pass语句">
       <created>1667094376856</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667112506491</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="变量作用域">
+      <created>1667114168714</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667114168714</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,13 +256,15 @@
     <MESSAGE value="参数加强" />
     <MESSAGE value="不定长参数" />
     <MESSAGE value="参数拆包 返回多个值" />
-    <option name="LAST_COMMIT_MESSAGE" value="参数拆包 返回多个值" />
+    <MESSAGE value="变量作用域" />
+    <option name="LAST_COMMIT_MESSAGE" value="变量作用域" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/day6$07_.coverage" NAME="07-变量作用域 Coverage Results" MODIFIED="1667114077845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day6$030405.coverage" NAME="030405 Coverage Results" MODIFIED="1667093615899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/day6$02_.coverage" NAME="02-函数注释 Coverage Results" MODIFIED="1667099559776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day6$06_.coverage" NAME="06-返回多个值 Coverage Results" MODIFIED="1667112398788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/day6$08_.coverage" NAME="08-匿名函数 Coverage Results" MODIFIED="1667115848489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day6$06.coverage" NAME="06 Coverage Results" MODIFIED="1667093856422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/day6$03_.coverage" NAME="03-参数加强 Coverage Results" MODIFIED="1667100468973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day6$05_.coverage" NAME="05-参数拆包 Coverage Results" MODIFIED="1667112147217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
