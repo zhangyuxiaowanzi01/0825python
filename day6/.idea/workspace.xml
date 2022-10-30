@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdabd534-0354-4ab2-b428-120009b5f140" name="Default Changelist" comment="参数加强">
+      <change afterPath="$PROJECT_DIR$/04-不定长参数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-参数加强.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-参数加强.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2GpifN0vkn1KNbKCvt6mdu732Sw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +43,7 @@
       <recent name="E:\20220825软件测试精英班\10.python阶段\0825python\day6\作业" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03-参数加强">
+  <component name="RunManager" selected="Python.04-不定长参数">
     <configuration name="01-pass语句" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="day6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="030405" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04-不定长参数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="day6" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,12 +118,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/030405.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-不定长参数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04-不定长参数" />
         <item itemvalue="Python.03-参数加强" />
         <item itemvalue="Python.02-函数注释" />
         <item itemvalue="Python.01-pass语句" />
         <item itemvalue="Python.06" />
-        <item itemvalue="Python.030405" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +174,7 @@
       <updated>1667092028425</updated>
       <workItem from="1667092029799" duration="3997000" />
       <workItem from="1667098995445" duration="458000" />
-      <workItem from="1667099467447" duration="1588000" />
+      <workItem from="1667099467447" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="pass语句">
       <created>1667094376856</created>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667100961335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="参数加强">
+      <created>1667101075410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667101075410</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,5 +233,6 @@
     <SUITE FILE_PATH="coverage/day6$06.coverage" NAME="06 Coverage Results" MODIFIED="1667093856422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/day6$03_.coverage" NAME="03-参数加强 Coverage Results" MODIFIED="1667100468973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/day6$01_pass.coverage" NAME="01-pass语句 Coverage Results" MODIFIED="1667094245604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/day6$04_.coverage" NAME="04-不定长参数 Coverage Results" MODIFIED="1667102254077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
