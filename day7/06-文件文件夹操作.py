@@ -50,7 +50,7 @@ print(os.path.isdir('resource'))
 print(os.path.isdir('resource/demo1.txt'))
 """
 
-#  TODO os.path.isfile("文件路径") 判断资源是文件
+# TODO os.path.isfile("文件路径") 判断资源是文件
 """
 print(os.path.isfile('resource'))
 print(os.path.isfile('resource/demo1.txt'))
