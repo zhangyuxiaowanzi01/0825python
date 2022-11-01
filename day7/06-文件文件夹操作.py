@@ -57,6 +57,7 @@ print(os.path.isfile('resource/demo1.txt'))
 """
 
 # TODO os.path.splitext('文件路径')  extension: 扩展 获取文件扩展
-filename, extension = os.path.splitext('01-文件基本操作.py')  # 返回：（文件名, 后缀） -> (‘user’, ‘.txt’)
+# 返回：（文件名, 后缀） -> (‘user’, ‘.txt’)
+filename, extension = os.path.splitext('01-文件基本操作.py')
 print(filename)
 print(extension)
