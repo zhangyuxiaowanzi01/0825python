@@ -7,6 +7,7 @@ f.read([n])
 f.readline()
     读取一行
 f.readlines()
+    一次性读取所有行，返回列表类型
 """
 # TODO f.read([n])
 # 打开文件-普通模式
