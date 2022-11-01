@@ -28,10 +28,22 @@ f.close()
 
 # TODO f.readline() 按行读取内容
 """
+# 第一种
 f = open('resource/demo1.txt', 'r', encoding='utf8')
 # print(f.readline())
 # print(f.readline())
 # print(f.readline())
+f.close()
+
+# 第二种
+f = open('resource/demo1.txt', 'r', encoding='utf8')
+while True:
+    content = f.readline()
+    print(content)
+
+    # 如果读到的是空字符串，那么就退出循环
+    if not content:
+        break
 f.close()
 """
 
