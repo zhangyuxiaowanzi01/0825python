@@ -17,6 +17,6 @@ f.close()
 # 打开文件
 f = open('resource/demo1.txt', 'w', encoding='utf8')
 # 操作文件
-f.write('hello world')
+f.write('hello python')
 # 关闭文件
 f.close()
