@@ -25,7 +25,7 @@ print(content)
 f.close()
 """
 
-# f.readline() 按行读取内容
+# TODO f.readline() 按行读取内容
 """
 f = open('resource/demo1.txt', 'r', encoding='utf8')
 # print(f.readline())
@@ -34,7 +34,7 @@ f = open('resource/demo1.txt', 'r', encoding='utf8')
 f.close()
 """
 
-# f.readlines() 一次性读取所有行，返回列表。列表中每个元素就是一行
+# TODO f.readlines() 一次性读取所有行，返回列表。列表中每个元素就是一行
 f = open('resource/demo1.txt', 'r', encoding='utf8')
 content_list = f.readlines()
 print(content_list)
