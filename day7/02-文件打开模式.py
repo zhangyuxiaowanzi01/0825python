@@ -41,7 +41,7 @@ print(f.read())
 f.close()
 """
 
-# TODO +模式，不能单独是用
+# TODO +模式，不能单独使用
 # r+
 f = open('resource/demo1.txt', 'r+', encoding='utf8')
 print(f.read())
