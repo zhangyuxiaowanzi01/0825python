@@ -20,6 +20,7 @@ class Person:
 
 
 p1 = Person()
+
 # 调用对象方法
 p1.set_name()  # 设置
 p1.get_name()  # 获取
