@@ -18,7 +18,7 @@ class Person:
 p1 = Person('hello', 18)  # 人的实例
 print(p1.name)
 print(p1.age)
-
+print(p1)
 p2 = Person(name='good', age=18)
 print(p2.name)
 print(p2.age)
