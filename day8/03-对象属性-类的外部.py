@@ -18,8 +18,10 @@ p1.name = 'apple'
 print(p1.name)
 
 # TODO 获取对象属性
+# 语法：obj.attr
 print(p1.name)
 
 # TODO 删除对象属性
+# 语法：del obj.attr
 del p1.name
 print(p1.name)
