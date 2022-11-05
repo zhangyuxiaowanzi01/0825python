@@ -42,6 +42,7 @@ class File:
             if not line_content:
                 break
             line_list.append(line_content)
+        
         return line_list
 
     @staticmethod
