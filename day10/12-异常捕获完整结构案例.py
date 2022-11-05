@@ -12,3 +12,7 @@ else:
 finally:
     print(1111)
     f.close()
+
+
+# FileExistsError
+# FileNotFoundError
