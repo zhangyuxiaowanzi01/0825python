@@ -5,14 +5,14 @@ import 模块名
 导入模块的目的：导入模块之后可以使用模块中的资源
 资源：变量，函数，类
 """
-# 导入module_a
-import module_a
+# 导入module1
+import module1
 
-print(module_a.name)
+print(module1.name)
 
-module_a.fn()
+module1.fn()
 
-print(module_a.Demo())
+print(module1.Demo())
 
 
 
