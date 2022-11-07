@@ -5,7 +5,7 @@ class NameError(Exception):
     def __str__(self):
         return '异常描述信息'
 
-2. 如何抛出自定义异常类yi
+2. 如何抛出自定义异常类
     raise 异常对象
 """
 
