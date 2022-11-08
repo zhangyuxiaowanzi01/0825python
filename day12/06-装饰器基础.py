@@ -16,14 +16,13 @@ def wrapper(fn):
     return inner
 
 
-# 使用装饰器
 def fn1():
     print('fn1')
 
 
+# 使用装饰器
 fn1 = wrapper(fn1)
 fn1()
 
 # fn2 = wrapper(fn2)
 # fn2()
-
