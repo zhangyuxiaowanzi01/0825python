@@ -8,7 +8,7 @@
 
 
 # 闭包
-def wrapper():
+def wrapper1():
     num = 100
 
     def inner():
@@ -17,5 +17,8 @@ def wrapper():
     return inner
 
 
-inner = wrapper()
-inner()
+def wrapper2(num):
+    def inner():
+        print(num)
+
+    return inner
