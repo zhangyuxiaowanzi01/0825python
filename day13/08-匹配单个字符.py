@@ -85,6 +85,3 @@ print(re.search('\Wgo', 'Bgo'))  # 匹配不到
 print(re.search('\Wgo', '_go'))  # 匹配不到
 print(re.search('\Wgo', '号go'))  # 匹配不到
 print(re.search('\Wgo', '-go'))
-
-
-
