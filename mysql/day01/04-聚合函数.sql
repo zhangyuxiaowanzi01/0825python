@@ -17,7 +17,8 @@ SELECT MAX(stu_age) FROM student;
 SELECT MIN(stu_age) FROM student;
 
 -- avg 字段平均值
--- avg
+-- 查询学生平均年龄
+SELECT AVG(stu_age) FROM student;
 
 
 
