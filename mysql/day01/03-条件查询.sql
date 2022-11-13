@@ -21,6 +21,14 @@ SELECT * FROM student WHERE stu_id in (1, 3, 5, 6);
 -- stu_id 不在1, 3, 5, 6的学生信息
 SELECT * FROM student WHERE stu_id NOT in (1, 3, 5, 6);
 
+-- 是否为null
+-- IS NULL
+-- 查询class_id为null的数据
+SELECT * FROM student WHERE class_id IS NULL;
+-- IS NULL
+-- 查询class_id为null的数据
+
+
 
 
 
