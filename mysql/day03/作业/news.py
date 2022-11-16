@@ -32,7 +32,7 @@ class News:
                 sql = f"INSERT INTO news(title, author, content, pub_date, clicks) " \
                       f"VALUES('{title + str(i)}', '{author + str(i)}', '{content + str(i)}', '{datetime.now()}', {click + 1})"
                 print(sql)
-                self.cursor.execute(sql)
+                # self.cursor.execute(sql)1
         except Exception as e:
             print(e)
             self.conn.rollback()
@@ -42,9 +42,37 @@ class News:
 
     def del_data_by_title(self):
         """根据用户输入的标题删除记录"""
-        pass
+        # 接收用户输入的标题
+        title = input('title:')
+
+        # 判断标题是否存在
+        sql = f'select * from news where title = "{title}"'
+        print(sql)
+        rows = self.cursor.execute(sql)
+        if rows:
+            # 存在则执行删除操作
+            try:
+                rows = self.cursor.execute(f'delete from news where title = "{title}"')
+            except Exception as e:
+                print(e)
+                self.conn.rollback()
+                print('删除失败')
+            else:
+                self.conn.commit()
+                print('删除成功')
+        else:
+            # 不存在则提示不存在
+            print('标题不存在')
+
+    def __del__(self):
+        self.cursor.close()
+        self.conn.close()
 
 
 if __name__ == '__main__':
     news = News()
-    news.add_five_data()
+    # 添加5条数据
+    # news.add_five_data()
+
+    # 根据标题删除数据
+    news.del_data_by_title()
