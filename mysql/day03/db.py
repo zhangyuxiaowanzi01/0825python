@@ -51,6 +51,7 @@ class Database:
         self.cursor.close()
         self.conn.close()
 
+
 if __name__ == '__main__':
     db = Database('advanced')
     # database.read()  # rows data
@@ -58,4 +59,3 @@ if __name__ == '__main__':
 
     # 删除操作
     print(db.write('delete from new where title = %s', ['title4']))
-
