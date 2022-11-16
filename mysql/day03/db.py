@@ -41,9 +41,9 @@ class Database:
 
 
 if __name__ == '__main__':
-    database = Database('advanced')
+    db = Database('advanced')
     # database.read()  # rows data
-    rows, data = database.read('select * from news where itle=%s', ['title1'])
+    rows, data = db.read('select * from news where itle=%s', ['title1'])
 
     print(rows)
     print(data)
