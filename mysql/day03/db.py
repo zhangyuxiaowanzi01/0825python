@@ -16,7 +16,8 @@ import pymysql
 
 class Database:
     def __init__(self, database, host='localhost',
-                 port=3306, user='root', password='root', cursor=pymysql.cursors.Cursor):
+                 port=3306, user='root', password='root',
+                 cursor=pymysql.cursors.Cursor):
         self.conn = pymysql.connect(host=host, port=port,
                                     user=user, password=password,
                                     database=database, charset='utf8')
