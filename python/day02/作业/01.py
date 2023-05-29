@@ -1,16 +1,42 @@
 # 1. 写出变量名字，可以由哪些字符组成。
-
+"""
+变量必须有字母加数字组成可以包含下划线组成,但是不能与python中的关键字冲突
+"""
 # 2. 写出变量命名时的规则。
-
+"""
+可以采取大驼峰,小驼峰法
+变量名必须见名知意
+不是使用以字母开头
+"""
 # 3. 变量的作用是什么？什么时候需要使用变量？
+"""
+如果一个值需要参与后期的一个运算的话就需要变量
+当后面的程序需要用到的话就要使用变量
+"""
 
 # 4. 说出什么是驼峰法（大驼峰、小驼峰）， 举例说明
-# 大驼峰
+# 大驼峰 
+"""
+MyHome
+"""
 # 小驼峰
+"""
+myHome
+"""
 # 下划线拼接
-
+"""
+my_home
+"""
 # 5. 编写一个python程序
+"""
+a=input()
+print(a)
+"""
 # A. 要求用户输入数据
+"""
+a=input("请输入数据")
+print(a)
+"""
 # B. 打印输出数据的类型
 """
 data = input('请输入数据：')
@@ -25,33 +51,29 @@ print(type(data))
 name = input('name:')
 gender = input('gender:')
 address = input('address:')
-
 print('姓名：', name, '性别：', gender, '地址：', address)
 """
 
 # 1. 分析以下代码为什么会报错？翻译报错信息。
-# print(a)  # a: 标识符
-# print(a)
-
+# print(a)  
+"""
+变量a没有被定义
+"""
 
 # 1. 分析以下代码为什么会报错？翻译报错信息
-# print(a  # 语法错误  syntaxError
-
+# print(a  
+"""
+没有遵循python的编码规范
+"""
 # 1. 编写1个python程序，完成以下要求：
 # A. 获取用户输入的两个数字
+"""
+a = int(input("请输入数字"))
+b = int(input("请输入数字"))
+"""
 # B. 对获取的两个数字进行求和运行，并输出相应的结果
 
-num1 = int(input('num1:'))
-num2 = int(input('num2:'))
-
-print(num1 + num2)
-
 """
-# 数据类型转换
-num1_int = int(num1)   # '11'  '11.1'  'abc' '11a'
-num2_int = int(num2)
-
-result = num1_int + num2_int
-print(result)
+mun = a + b 
+print("a+b的和是mun")
 """
-
